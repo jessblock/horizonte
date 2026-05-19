@@ -613,15 +613,14 @@ export default function App() {
                 />
                 <button
                   onClick={() => {
-                    if (commandPin === '2026') { setCommandUnlocked(true); setCommandPin('') }
+                    if (commandPin === '1958') { setCommandUnlocked(true); setCommandPin('') }
                     else showFeedback('Código incorreto', 'error')
                   }}
                   className="w-full mt-3 bg-accent text-bg-base py-3.5 rounded-md text-body font-bold hover:bg-accent-strong active:scale-[0.98] transition"
                 >
                   Autenticar
                 </button>
-                <p className="text-tiny text-ink-tertiary text-center mt-3">PIN padrão: <span className="font-mono">2026</span></p>
-              </div>
+                     </div>
             ) : (
               <>
                 <div className="bg-bg-surface rounded-xl border border-bg-elevated mb-4 overflow-hidden">
