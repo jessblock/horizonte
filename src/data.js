@@ -27,7 +27,7 @@ export const MISSIONS = [
       { id: 'lab_fx', name: 'Workshop FX', desc: 'Maquiagem de efeitos com Jess: cortes, cicatrizes', xp: 120, collab: 'Jess', icon: 'Skull' },
       { id: 'lab_ana', name: 'Anatomia Humana', desc: 'Desenho técnico, estilo Da Vinci', xp: 80, icon: 'Bone' },
       { id: 'lab_cust', name: 'Customização', desc: 'Pintura técnica de armaduras e props', xp: 100, icon: 'Palette' },
-      { id: 'lab_criatura', name: 'Esboço de Criatura', desc: 'Inventar um monstro ou criatura em 10 min', xp: 50, quick: true, icon: 'Ghost' },
+      { id: 'lab_criatura', name: 'Esboço de Criatura', desc: 'Inventar uma criatura ou personagem em 10 min', xp: 50, quick: true, icon: 'Ghost' },
       { id: 'lab_dino', name: 'Bestiário Pré-Histórico', desc: 'Desenhar 1 dinossauro com nome científico', xp: 60, quick: true, icon: 'Footprints' },
       { id: 'lab_tatic', name: 'Equipamento Tático', desc: 'Projetar 1 item (escudo, capacete, ferramenta)', xp: 60, quick: true, icon: 'Swords' },
       { id: 'lab_engen', name: 'Engenharia de Campo', desc: 'Construir com Lego, sucata ou papelão em 15 min', xp: 70, quick: true, icon: 'Wrench' }
@@ -73,7 +73,7 @@ export const RESCUE_LIBRARY = {
   },
   bored: {
     label: 'Estou entediado',
-    suggestion: 'Esboço de Criatura: inventar 1 monstro',
+    suggestion: 'Esboço de Criatura: inventar 1 criatura',
     xp: 50, duration: '10 min',
     why: 'Criação canaliza busca por estímulo'
   },
